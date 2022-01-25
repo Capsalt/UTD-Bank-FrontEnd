@@ -1,0 +1,23 @@
+//yeni sayfa oluştur
+
+import React from 'react'
+import { Container } from 'react-bootstrap'
+import Accounts from '../../components/account/Accounts'
+import PageHeader from '../../components/common/PageHeader'
+import Spacer from '../../components/common/Spacer'
+import Search2 from '../../components/searchBar/Search2'
+
+const AccountsPage = () => {
+  return (
+    <>
+      <PageHeader title="Accounts" />
+      <Spacer />
+      <Container>
+        <Search2/>
+      </Container>
+      <Spacer />
+    </>
+  )
+}
+
+export default AccountsPage
